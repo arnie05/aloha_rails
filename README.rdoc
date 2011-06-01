@@ -2,6 +2,12 @@
 
 Aloha Editor remixed to fit into your Rails 3.1 application.
 
+== Usage
+
+# Add the gem to your gemfile
+# Add '//= require aloha' to your js manifest.
+# Good to go!  Call .aloha() on the appropriate elements.
+
 == Contributing to aloha_rails
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
