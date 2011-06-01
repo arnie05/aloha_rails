@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @fart.name
+%p
+  %b Cool:
+  = @fart.cool
+
+= link_to 'Edit', edit_fart_path(@fart)
+\|
+= link_to 'Back', farts_path
