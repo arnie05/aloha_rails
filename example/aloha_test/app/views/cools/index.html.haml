@@ -1,0 +1,19 @@
+%h1 Listing cools
+
+%table
+  %tr
+    %th Name
+    %th
+    %th
+    %th
+
+  - @cools.each do |cool|
+    %tr
+      %td= cool.name
+      %td= link_to 'Show', cool
+      %td= link_to 'Edit', edit_cool_path(cool)
+      %td= link_to 'Destroy', cool, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Cool', new_cool_path
