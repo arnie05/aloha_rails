@@ -1,0 +1,4 @@
+//= require aloha
+$ ->
+  $('textarea').aloha()
+

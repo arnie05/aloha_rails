@@ -1,6 +1,6 @@
 = aloha_rails
 
-Description goes here.
+Aloha Editor remixed to fit into your Rails 3.1 application.
 
 == Contributing to aloha_rails
  
@@ -14,6 +14,7 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Tyler Gannon. See LICENSE.txt for
-further details.
+Copyright (c) 2011 Tyler Gannon. 
+Aloha Editor www.aloha-editor.org
+See LICENSE.txt for further details.
 

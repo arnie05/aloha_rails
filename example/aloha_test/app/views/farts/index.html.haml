@@ -1,0 +1,21 @@
+%h1 Listing farts
+
+%table
+  %tr
+    %th Name
+    %th Cool
+    %th
+    %th
+    %th
+
+  - @farts.each do |fart|
+    %tr
+      %td= fart.name
+      %td= fart.cool
+      %td= link_to 'Show', fart
+      %td= link_to 'Edit', edit_fart_path(fart)
+      %td= link_to 'Destroy', fart, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Fart', new_fart_path
