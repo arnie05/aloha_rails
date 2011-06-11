@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem 'rails', '3.1.0.rc1'
+gem 'sprockets', '>= 2.0.0.beta.10'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
