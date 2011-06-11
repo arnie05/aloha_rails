@@ -2,8 +2,6 @@ source "http://rubygems.org"
 
 gem 'sprockets', '>= 2.0.0.beta.10'
 
-# Add dependencies to develop your gem here.
-# Include everything needed to run rake, tests, features, etc.
 group :development do
   gem "rspec", "~> 2.3.0"
   gem "yard", "~> 0.6.0"
