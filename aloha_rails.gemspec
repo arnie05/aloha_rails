@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{aloha_rails}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tyler Gannon"]
@@ -473,6 +473,7 @@ Gem::Specification.new do |s|
     "lib/assets/javascripts/aloha/plugins/com.gentics.aloha.plugins.Table/resources/wai_green.png",
     "lib/assets/javascripts/aloha/plugins/com.gentics.aloha.plugins.Table/resources/wai_red.png",
     "lib/assets/javascripts/aloha/set_base_location.js",
+    "lib/assets/javascripts/aloha/start_aloha.js.coffee",
     "lib/assets/stylesheets/aloha/css/aloha.css",
     "lib/assets/stylesheets/aloha/deps/MIT-LICENSE.txt",
     "lib/assets/stylesheets/aloha/deps/extjs/resources/css/ext-all.css",

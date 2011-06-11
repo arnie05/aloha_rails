@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem 'rails', '3.1.0.rc1'
+gem 'rails', '>= 3.1.0.rc1'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
