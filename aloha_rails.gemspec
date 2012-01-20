@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{aloha_rails}
-  s.version = "0.1.4"
+  s.version = "0.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Tyler Gannon"]
-  s.date = %q{2011-06-11}
+  s.authors = [%q{Tyler Gannon}]
+  s.date = %q{2012-01-20}
   s.description = %q{Aloha... rails!!!}
   s.email = %q{tgannon@gmail.com}
   s.extra_rdoc_files = [
@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "aloha_rails-0.1.3.gem",
     "aloha_rails.gemspec",
     "lib/aloha_rails.rb",
     "lib/assets/images/aloha/deps/extjs/resources/charts.swf",
@@ -483,36 +482,36 @@ Gem::Specification.new do |s|
     "lib/assets/stylesheets/extjs/xtheme-gray.css"
   ]
   s.homepage = %q{http://github.com/tylergannon/aloha_rails}
-  s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.2}
+  s.licenses = [%q{MIT}]
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.8}
   s.summary = %q{Aloha Editor packaged for your rails pleasure}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<sprockets>, [">= 2.0.0.beta.10"])
-      s.add_development_dependency(%q<rspec>, ["~> 2.3.0"])
+      s.add_runtime_dependency(%q<sprockets>, [">= 0"])
+      s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<yard>, ["~> 0.6.0"])
-      s.add_development_dependency(%q<cucumber>, [">= 0"])
+      s.add_development_dependency(%q<cucumber>, [">= 1.1.4"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.1"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
     else
-      s.add_dependency(%q<sprockets>, [">= 2.0.0.beta.10"])
-      s.add_dependency(%q<rspec>, ["~> 2.3.0"])
+      s.add_dependency(%q<sprockets>, [">= 0"])
+      s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<yard>, ["~> 0.6.0"])
-      s.add_dependency(%q<cucumber>, [">= 0"])
+      s.add_dependency(%q<cucumber>, [">= 1.1.4"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.1"])
       s.add_dependency(%q<rcov>, [">= 0"])
     end
   else
-    s.add_dependency(%q<sprockets>, [">= 2.0.0.beta.10"])
-    s.add_dependency(%q<rspec>, ["~> 2.3.0"])
+    s.add_dependency(%q<sprockets>, [">= 0"])
+    s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<yard>, ["~> 0.6.0"])
-    s.add_dependency(%q<cucumber>, [">= 0"])
+    s.add_dependency(%q<cucumber>, [">= 1.1.4"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.1"])
     s.add_dependency(%q<rcov>, [">= 0"])
